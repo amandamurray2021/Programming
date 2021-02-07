@@ -1,5 +1,5 @@
 # hello2.py
-# This program reads in my name and prints out hello and my name
+# This program reads in a name and prints out hello, the name and a greeting
 # Author: Amanda Murray
 
 name = input("Enter your name:")
