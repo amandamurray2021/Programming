@@ -1,3 +1,5 @@
+# testtypes.py
+# Lab 2.3
 # This program creates 5 variables for each of the following types:
 # int, float, boolean, str, list
 # Author: Amanda Murray

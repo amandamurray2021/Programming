@@ -1,4 +1,5 @@
 # sub.py
+# Lab 2.3
 # This program reads in two numbers and subtracts the first one from the second one
 # Author: Amanda Murray
 

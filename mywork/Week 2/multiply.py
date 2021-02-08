@@ -1,4 +1,5 @@
 # multiply.py
+# Lab 2.2
 # This program outputs what 111 * 555 is
 # Author: Amanda Murray
 

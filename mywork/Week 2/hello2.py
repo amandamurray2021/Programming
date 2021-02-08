@@ -1,4 +1,5 @@
 # hello2.py
+# Lab 2.2
 # This program reads in a name and prints out hello, the name and a greeting
 # Author: Amanda Murray
 
