@@ -4,8 +4,8 @@
 # This will give us an integer result and the remainder
 # Author: Amanda Murray
 
-x = int(input ("Enter first number: "))
-y = int(input ("Enter the number you want to divide by: "))
+x = int (input ("Enter first number: "))
+y = int (input ("Enter the number you want to divide by: "))
 answer = int (x//y) # // gives the int division
 remainder = x % y # % gives the remainder
 
