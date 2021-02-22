@@ -4,7 +4,7 @@
 # Author: Amanda Murray
 
 import random
-numberToGuess = random.randint(1, 100)
+numberToGuess = random.randint(1, 100) # As per Q4 random number between 0 and 100 will be generated
 
 guess = int(input("Please guess the number:"))
 while guess != numberToGuess:
