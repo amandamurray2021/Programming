@@ -1,3 +1,4 @@
+# Q3
 # This program puts 10 random numbers into a queue(list)
 # It outputs all the values in the queue
 # Then it takes the numbers from the queue one at a time
@@ -15,7 +16,8 @@ for n in range (0, numberOfNumbers):
 print ("queue is {}".format(queue))
 
 while len(queue) != 0:
-    currentNumber = queue.pop(0)
+    currentNumber = queue.pop(0) 
+    # The command pop(0) takes the first element out of a list
     print ("current number is {} and the queue is {} ".format(currentNumber, queue))
 
 print ("the queue is now empty")

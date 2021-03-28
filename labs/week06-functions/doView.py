@@ -1,5 +1,7 @@
-# This program prints out all of the student's names first
-# Then it runs a function called displayModules() and calls it afterwards to print each name
+# Q7
+# This program displays the doView() function.
+# It prints out all of the student's names first.
+# Then it runs a function called displayModules() and calls it afterwards to print each name.
 # Author: Amanda Murray
 
 def displayModules(modules):

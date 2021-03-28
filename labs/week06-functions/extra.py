@@ -1,5 +1,6 @@
-# This program shows that variables can be of type function
-# This means that lists, tuples and dicts can have variables of type function in them
+# Extra
+# This program shows that variables can be of type function.
+# This means that lists, tuples and dicts can have variables of type function in them.
 # Author: Amanda Murray
 
 def fun1 ():

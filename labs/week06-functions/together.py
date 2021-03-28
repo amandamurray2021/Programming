@@ -1,5 +1,6 @@
-# This is the entire function of the pieces we have built thus far
-# in student.py, modules.py, useFunction.py, doAdd.pyand  doView.py
+# Q6
+# This is a program made up of the functions we have written so far
+# in menu.py, menu2.py, doAdd.py, doView.py, readModules.py
 # Author: Amanda Murray
 
 def displayMenu ():
@@ -29,6 +30,11 @@ def readModules ():
         moduleName = input("\t Enter next module name (blank to quit):").strip()
 
     return modules
+
+def displayModules(modules):
+    print ("\tName \tGrade")
+    for module in modules:
+        print ("\t{} \t{}".format(module["name"], module["grade"])
 
 def doView (students):
     for currentStudent in students:

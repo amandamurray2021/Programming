@@ -1,4 +1,5 @@
-# This program reads in the modules until the user enters a blank for the module name
+# Q5
+# This program reads in the modules until the user enters a blank for the module name.
 # Author: Amanda Murray
 
 def readModules ():
@@ -13,3 +14,16 @@ def readModules ():
         moduleName = input("\t Enter next module name (blank to quit):").strip()
 
     return modules
+
+def doAdd (students):
+    currentStudent = {}
+    currentStudent ["name"] = input ("Enter name: ")
+    currentStudent ["modules"] = readModules ()
+    
+    students.append (currentStudent)
+
+#test
+students = []
+doAdd (students)
+doAdd (students)
+print (students)

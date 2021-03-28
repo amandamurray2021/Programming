@@ -1,6 +1,7 @@
-# This program allows a user to create new students and to view students
-# It is a function that prints out a menu of commands we can perform (ie add, view and quit)
-# The program returns what the user chose
+# Q2
+# This program allows a user to create new students and to view students.
+# It is a function that prints out a menu of commands we can perform (ie add, view and quit).
+# The program returns what the user chose.
 # Author: Amanda Murray
 
 def displayMenu ():
