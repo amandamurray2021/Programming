@@ -1,13 +1,17 @@
+# Weekly Task 5
 # This program outputs whether or not today is a weekday
 # Author: Amanda Murray
 
 import datetime #I need to import Python's datetime module so it can tell me if it's a weekday or the weekend
+print (input ("Please enter a weekday: "))
 
-print (input("Day of the week: ")
-weekDay = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
-daysOfTheWeek = 7
+day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+daysoftheweek = day [datetime.date.weekday()]
+#weekday = (day [0:4])
+#weekend = (day [5:7])
 
-if DaysOfTheWeek < 0 and > 5:
-    print (type("Yes, unfortunately today is a weekday"))
-else:
-    print (type("It is the weekend, yay!"))
+for input in day(daysoftheweek(range (0,5))):
+    print ("Yes, unfortunately today is a weekday")
+
+for input in day(daysoftheweek(range (6,8))):
+    print ("It is the weekend, yay!")

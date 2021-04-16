@@ -1,11 +1,12 @@
-# Assessment 2
-# secondstring.py
+# Weekly Task 3
 # Author: Amanda Murray
 
-# This program asks the user to input a string and outputs every second letter in reverse order
+# This program asks the user to input a string
+# It outputs every second letter from the string in reverse order
 
-sentence = ("The quick brown fox jumps over the lazy dog")
-print (sentence [::-1]) # This will reverse the order of the sentence
-reverseSentence = ("god yzal eht revo spmuj xof nworb kciuq ehT")
-print (reverseSentence [1::2]) 
-# This function addresses that the first letter in the sentence will equal to 0 by printing number 1 and every second letter afterwards
+sentence = input("Please enter a sentence: ")
+print (sentence [::-1][1::2])
+# First, we reverse the sentence by using [::-1]
+# Next, we address that the first letter in the sentence is counted as 0 and the second letter as 1 by using [1::X] 
+# Finally, we add the number 2 to the slice [1::2]
+# This will make sure we count the second letter in the sentence and every second letter afterwards
