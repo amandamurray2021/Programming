@@ -39,7 +39,7 @@ This will display the second letter in the sentence in reverse order and every s
 
 “Python Slicing Strings.” W3Schools, Refsnes Data, www.w3schools.com/python/python_strings_slicing.asp. Accessed 13 Apr. 2021.
 
-#### collatz.py
+### collatz.py
 This program asks the user to input any positive integer.
 
 It outputs the successive values of the following calculation:
@@ -90,25 +90,21 @@ Sturtz, John. “Lists and Tuples in Python.” Real Python, realpython.com/pyth
 
 Sweigart, Al. Automate the Boring Stuff with Python: Practical Programming for Total Beginners. 2nd ed., No Starch Press Inc., 245 8th Street, San Francisco, CA 94103, 2015, http://files.urpdfs.com/automate-the-boring-stuff-with-python.pdf
 
-#### squareroot.py
+### squareroot.py
 This program accepts an input of a positive floating point number.
 
 It outputs an approximation of it's square root using a created function called 'sqrt' to do so.
 
-It does not use the built-in functions x**.5 or math.sqrt(x).
+It does not use the built-in functions x**.5 or math.sqrt(x) and it is based on the Newton method of estimating square roots.
 
-It is based on the Newton method of estimating square roots.
-
-Although I did find some references on this topic, I was unable to find a method of performing this within my coding capabilities.
+Although I did research Newton's method, I was unable to translate it from a mathematical equation to code in order to approximate the square root of the floating point number.
 
 #### Works cited
 Kong, Qingkai, et al. Python Programming and Numerical Methods: A Guide for Engineers and Scientists. 1st ed., Cambridge, Massachusetts, Academic Press, 2020, pythonnumericalmethods.berkeley.edu/notebooks/chapter19.04-Newton-Raphson-Method.html.
 
-“Python Dates.” W3Schools, Refsnes Data, www.w3schools.com/python/python_datetime.asp. Accessed 15 Apr. 2021.
+“Python Functions.” W3Schools, Refsnes Data, www.w3schools.com/python/python_functions.asp. Accessed 16 Apr. 2021.
 
-“Python Lists.” W3Schools, Refsnes Data, www.w3schools.com/python/python_lists.asp. Accessed 14 Apr. 2021.
-
-Sturtz, John. “Lists and Tuples in Python.” Real Python, realpython.com/python-lists-tuples. Accessed 14 Apr. 2021.
+“Python Modules.” W3Schools, Refsnes Data, www.w3schools.com/python/python_modules.asp. Accessed 16 Apr. 2021.
 
 VanderPlas, Jake. A Whirlwind Tour of Python. 1st ed., 1005 Gravenstein Highway North, Sebastopol, CA 95472, O’Reilly Media, Inc, 2016, jakevdp.github.io/WhirlwindTourOfPython/06-built-in-data-structures.html.
 
