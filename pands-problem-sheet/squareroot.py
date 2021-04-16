@@ -7,7 +7,8 @@
 print (input ("Please enter a positive floating point number: ")
 
 def sqrt():
-    f = lambda x: x** - x**2 
-    f2 = 
 
+# I was unable to find a method of completing this program without using the in-built modules
+# Although I did research Newton's method I was unable to translate it from a mathematical equation to code
+# in order to approximate the square root of the floating point number
     

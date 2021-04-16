@@ -4,22 +4,17 @@
 # The program will take the filename from an argument on the command line
 # Author: Amanda Murray
 
-
-#f = open("mobydick.txt", "r")
-#for e in f:
-#    print (e)
-
-
 filename = "mobydick.txt"
-def readnumber(filename, number, character):
-    with open (filename, encoding ="UTF8") as f:
-        number = (f.read())
-        count = 0
-        for character in number:
-            if character == 'E':
-                count +=1
-            elif character == 'e':
-                count += 1
-        return count
 
-print (readnumber(filename, 'E', 'e'))
+def readnumber(filename, number, character): # this function is reading in three arguments: the filename, the number from the text
+    with open (filename, encoding ="UTF8") as f: # and the characters 'E' and 'e'
+        number = (f.read()) # This reads through the file
+        count = 0 # This begins the counter for what we are counting
+        for character in number:
+            if character == 'E': # for uppercase e's
+                count +=1
+            elif character == 'e': # for lowercase e's
+                count += 1
+        return count # return the number of uppercase and lowercase e's in the text
+
+print (readnumber(filename, 'E', 'e')) 

@@ -20,4 +20,4 @@ print ('{} multiplied by {} equals to {}'.format (metres, metres, metressquared)
 # Finally, we calculate the BMI by dividing their weight by their height in m²
 bmi = kg / metressquared
 print ('{} divided by {} equals to {:.2f}'.format (kg, metressquared, bmi))
-print ('Your BMI is {:.2f}'.format (bmi))
+print ('Your BMI is {:.2f}'.format (bmi)) # This is the person's BMI rounded to 2 decimal places

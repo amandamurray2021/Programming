@@ -9,14 +9,14 @@
 
 number = int(input("Please enter a positive integer: "))
 
-while number > 1:
-    if (number % 2) == 0:
+while number > 1: # this while loop will run as long as the number is greater than 1
+    if (number % 2) == 0: # even number
         number = number // 2
         print (number)
     else:
-        (number % 2) == 1
+        (number % 2) == 1 # odd number
         number = 3 * number + 1
         print (number)
     
-if number <= 0:
+if number <= 0: # this if statement will prevent the user from entering any negative integer 
     print (input("This is not a positive integer. Please enter a positive integer: "))
