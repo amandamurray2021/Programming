@@ -1,9 +1,8 @@
 # Weekly Task 2
-# Author: Amanda Murray
-
 # This program calculates a person's Body Mass Index (BMI)
 # The inputs are the person's height in centimetres and weight in kilograms
 # The output will be their weight divided by their height in metres squared (BMI)
+# Author: Amanda Murray
 
 cm = int(input ('Please enter your height (in cm): '))
 kg = int(input ('Please enter your weight (in kg): '))

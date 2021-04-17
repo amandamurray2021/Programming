@@ -4,11 +4,15 @@
 # It is necessary to create a function called <tt>sqrt</tt> that does this
 # Author: Amanda Murray
 
-print (input ("Please enter a positive floating point number: ")
+print (input("Please enter a positive number: "))
 
 def sqrt():
 
-# I was unable to find a method of completing this program without using the in-built modules
-# Although I did research Newton's method I was unable to translate it from a mathematical equation to code
-# in order to approximate the square root of the floating point number
+# Mathematical equation to code:
+# x[n+1] = x[n] = f(x[n])/dfdx(x[n]) # from Ling & Lantangen's book (in Works Cited)
+# x = x - f(x)/dfdx(x) 
+
+# My understanding of what this code should do (based on the Newton-Raphson method) is that a problem is entered and using 
+# the function and arguments it performs a number of iterations on the linear tangent on the x-axis to find the most accurate 
+# solution to the problem. I was unable to find a method of completing this program without using the in-built modules
     

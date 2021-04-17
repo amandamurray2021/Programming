@@ -2,20 +2,17 @@
 # This program outputs whether or not today is a weekday
 # Author: Amanda Murray
 
-import datetime #I need to import Python's datetime module so it can tell me if it's a weekday or the weekend
-print (input ("Please enter a weekday: "))
+import datetime # I need to import Python's datetime module to handle dates/times/days in Python
 
-day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] 
-daysoftheweek = day [datetime.date.weekday()]
-#weekday = (day [0:4]) # Here I tried to use list slicing to pull the first 5 values as the weekday
-#weekend = (day [5:7]) # Here I tried to use list slicing to pull the final 2 values as the weekend
+x = datetime.date.today().weekday()
+# datetime.date.today() returns the current local date
+# datetime.date.weekday() returns the day of the week as an integer, where Monday is 0 and Sunday is 6
+# days of the week: Monday = 0, Tuesday = 1, Wednesday = 2, Thursday = 3, Friday = 4, Saturday = 5, Sunday = 6
 
-for input in day(daysoftheweek(range (0,5))): # Here I tried to pull the input from the top line and have it determine that if the 
-    print ("Yes, unfortunately today is a weekday") # range is between 0 and 5 it is a weekday
+if x <= 4: # Using less than or equal to 4 will cover the days of the week from Monday to Friday (0 - 4)
+    print ("Yes, unfortunately today is a weekday")
+else:
+    x > 4 # Once the integer expressing the days of the week is greater than 4 (ie. 5 or 6) it is the weekend
+    print ("It is the weekend, yay!")
 
-for input in day(daysoftheweek(range (6,8))): # Here I tried to pull the input from the top line and have it determine that if the
-    print ("It is the weekend, yay!") # range is between 6 and 8 it is the weekend
-
-# Although this code is not functioning at the moment, I realised last minute that I should have been using 
-# datetime.date.today() and the datetime.weekday() functions to pull today's date and from that it would be possible
-# to determine if it's a weekday or the weekend
+# Concept for this code influenced by Stack Overflow's sample code (see Works Cited)

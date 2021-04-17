@@ -12,9 +12,10 @@ def readnumber(filename, number, character): # this function is reading in three
         count = 0 # This begins the counter for what we are counting
         for character in number:
             if character == 'E': # for uppercase e's
-                count +=1
+                count +=1 
             elif character == 'e': # for lowercase e's
                 count += 1
         return count # return the number of uppercase and lowercase e's in the text
+print (readnumber(filename, 'E', 'e')) # print the number of e's in the text
 
-print (readnumber(filename, 'E', 'e')) 
+# Concept for this code influenced by Singh's and Geekforgeeks sample code (see Works Cited)
