@@ -12,7 +12,7 @@ font2 = {'family': 'serif', 'color': 'purple', 'size': 15} # this determines the
 font3 = {'family': 'serif', 'color': 'orange', 'size': 15} # this determines the font, color and size of the ylabel
 
 plt.title('sepal_width.py', fontdict = font1)
-plt.xlabel ('Width of sepals(cm)', fontdict = font2)
+plt.xlabel ('Width of sepals (cm)', fontdict = font2)
 plt.ylabel ('Amount of irises', fontdict = font3)
 plt.show()
 
