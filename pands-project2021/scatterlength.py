@@ -4,23 +4,48 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 data = pd.read_csv ('C:\\Users\\amand\\Desktop\\GMIT\\Programming\\pands-project2021\\iris.csv')
-length = pd.DataFrame(data, columns = ['sepal_length', 'petal_length'])
-#species = data[['class']]
+x = pd.DataFrame(data, columns = ['sepal_length'])
+y = pd.DataFrame(data, columns = ['petal_length'])
+c = colors
+#s = 100
+#species = pd.DataFrame(data, columns = ['class'])
+#species['class'] = pd.to_numeric(species['class'], errors = 'coerce')
+plt.scatter (x, y, c)
 
-xlabel = ("Length of sepals in irises")
-ylabel = ("Length of petals in irises")
-#legend (['iris setosa', 'iris versicolor', 'iris virginica'], loc = "upper right")
+#plt.xlabel = ("Length of sepals in irises")
+#plt.ylabel = ("Length of petals in irises")
 
-#set(species)
+def species():
+    with open (data) as f:
+        z = (f.pd.DataFrame(data, columns = ['class'])
+        colors = ([])
+    for z in species:
+        if (z == 'setosa'):
+        colors.append(0)
+        if (z == 'versicolor'):
+        colors.append(1)
+        if (z == 'virginica'):
+        colors.append(2)
+return colors
+
+
+
+#set (species)
 #colors = []
 #for z in species:
 #    if (z == 'setosa'):
 #        colors.append(0)
-#    elif (z == 'versicolor'):
+#    if (z == 'versicolor'):
 #        colors.append(1)
-#    else:
-#        z == 'virginica'
+#    if (z == 'virginica'):
 #        colors.append(2)
 
-data.plot.scatter(x = 'sepal_length', y = 'petal_length', title = 'length.py', s = 100)
+viridis = plt.cm.get_cmap('viridis', 3)
+
+legend_aliases = [
+    plt.scatter ([], [], label ='setosa', c = viridis(0))
+    plt.scatter ([], [], label ='versicolor', c = viridis(1))
+    plt.scatter ([], [], label ='virginica', c = viridis(2))
+]
+plt.legend(handles= legend_aliases)
 plt.show()
