@@ -1,27 +1,11 @@
-import csv
-import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
 
-data = pd.read_csv ('C:\\Users\\amand\\Desktop\\GMIT\\Programming\\pands-project2021\\iris.csv')
-width = pd.DataFrame(data, columns = ['sepal_width', 'petal_width'])
-#species = data[['class']]
-
-xlabel = ("Width of sepals in irises")
-ylabel = ("Width of petals in irises")
-#legend (['iris setosa', 'iris versicolor', 'iris virginica'], loc = "upper right")
-
-#set(species)
-#colors = []
-#for z in species:
-#    if (z == 'setosa'):
-#        colors.append(0)
-#    elif (z == 'versicolor'):
-#        colors.append(1)
-#    else:
-#        z == 'virginica'
-#        colors.append(2)
-#colors
-
-data.plot.scatter(x = 'sepal_width', y = 'petal_width', title = 'width.py', s = 100)
+data = pd.read_csv('C:\\Users\\amand\\Desktop\\GMIT\\Programming\\pands-project2021\\iris.csv')
+sns.set_style("white")
+sns.FacetGrid(data, hue = 'class', height = 7).map(plt.scatter, 'petal_width', 'sepal_width', s = 100).add_legend(title = 'Species')
+plt.title ('Petal and sepal widths of the iris species in the Iris dataset')
+plt.xlabel ('Petal width (cm)')
+plt.ylabel ('Sepal width (cm)')
 plt.show()
