@@ -1,6 +1,4 @@
 import pandas as pd 
-import numpy as np
-
 import csv
 
 filename = 'C:\\Users\\amand\\Desktop\\GMIT\\Programming\\pands-project2021\\iris.data'
