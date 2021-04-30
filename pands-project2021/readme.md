@@ -16,7 +16,7 @@ created in order to research the data.
 * analysis.py
 * class.png
 * class.py
-* input.py
+* import.py
 * iris.csv
 * iris.data
 * petal_length.png

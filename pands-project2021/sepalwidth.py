@@ -1,3 +1,7 @@
+# This program plots a histogram with sepal width in cm on the x-axis and the amount of irises on the y-axis. 
+# Using Seaborn's "hue" parameter, we pass the Iris species (class) as a third variable and save the resulting graph as a .png.
+# Author: Amanda Murray
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns

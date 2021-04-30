@@ -1,6 +1,9 @@
-with open ('C:\\Users\\amand\\Desktop\\GMIT\\Programming\\pands-project2021\\summaryofvariables.txt', "w") as f:
-    data = f.write("In the Iris data set we have 5 individual variables:\n"),
-    data = f.write("1. Petal length in centimetres\n"),
+# This program outputs a summary of each of the variables in the Iris data set to a .txt file (summaryofvariables.txt)
+# Author: Amanda Murray
+
+with open ('C:\\Users\\amand\\Desktop\\GMIT\\Programming\\pands-project2021\\summaryofvariables.txt', "w") as f: # open the .txt file to write
+    data = f.write("In the Iris data set we have 5 individual variables:\n"), 
+    data = f.write("1. Petal length in centimetres\n"), 
     data = f.write("2. Petal width in centimetres\n"),
     data = f.write("3. Sepal length in centimetres\n"),
     data = f.write("4. Sepal width in centimetres\n"),
@@ -31,3 +34,6 @@ with open ('C:\\Users\\amand\\Desktop\\GMIT\\Programming\\pands-project2021\\sum
     data = f.write("Using Matplotlib, Pandas and Seaborn:\n"),
     data = f.write("* We are going to plot each of these variables in histograms against their class.\n"), 
     data = f.write("* We are going to plot pairs of variables in scatterplots against their class.\n")
+
+# use data = f.write() for each line you want to write
+# running the code will write it to the summaryofvariables.txt file
