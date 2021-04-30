@@ -1,9 +1,9 @@
-In the Iris dataset we have 5 individual variables:
+In the Iris data set we have 5 individual variables:
 1. Petal length in centimetres
 2. Petal width in centimetres
 3. Sepal length in centimetres
 4. Sepal width in centimetres
-5. Class (the species of iris flowers from the Iris dataset)
+5. Class (the species of iris flowers from the Iris data set)
 
 Here is a summary of each of the variables we will be reviewing in this project.
 
@@ -24,7 +24,7 @@ This is a list of 150 floats measuring the width of sepals in centimetres in the
 Iris-setosa, Iris-versicolor and Iris-virginica.
 
 Class:
-This is a list of 150 names of the Iris species in the dataset: Iris-setosa, Iris-versicolor and Iris-virginica.
+This is a list of 150 names of the Iris species in the data set: Iris-setosa, Iris-versicolor and Iris-virginica.
 There are 50 of Iris-setosa, 50 of Iris-versicolor and 50 of Iris-virginica.
 
 Using Matplotlib, Pandas and Seaborn:
